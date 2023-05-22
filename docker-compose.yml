@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/app
+
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend:/app
